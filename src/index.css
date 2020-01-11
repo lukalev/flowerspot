@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+@media (max-width: 768px) {
+  h2 { font-size: 1.5rem; }
+}
+a,.btn-link {
+  color:#212529;
+  outline: none; 
+}
+a:hover,.btn-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link.secondary {
+  color: #EAA79E;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link.active,.fa {
+  color: rgba(0, 0, 0, 0.6);
+}
+button.btn.btn-secondary {
+  border-radius: 20px;
+  background-color: #EAA79E;
+  border-color: #EAA79E;
+  font-weight: 500;
+}
+button.btn.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+.form-control:focus {
+  border-color: #EAA79E;
+  box-shadow: 0 0 0 0.2rem #eaa79e5c;
+}
+.navbar-light .navbar-nav .nav-link.link-secondary {
+  color: #EAA79E;
+}
+.navbar-light .navbar-nav .nav-link.link-secondary:hover {
+  color: #5a6268;
+}
+button {
+  box-shadow: none !important;
+  outline: none !important;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+.valid-feedback,.invalid-feedback {
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.invalid-feedback {
+  color: #b95555;
+}
+.invalid-feedback {
+  color: #28a745;
+}
+.flower-subtext {font-size: 13px; font-style: italic;}

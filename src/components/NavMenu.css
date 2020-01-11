@@ -1,0 +1,39 @@
+header {
+    height: 5rem;
+    box-sizing: border-box;
+}
+header nav {
+    border: 0;
+}
+header .logo {
+    height: 50px;
+}
+@media (max-width: 600px) {
+    header .logo {
+        height: 40px;
+    }
+}
+header .header-menu button span {
+    padding-right:15px;
+    padding-left:5px;
+    vertical-align: middle;
+}
+.header-menu .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media ( max-width : 600px ) {
+    header a.navbar-brand {
+        font-size: 18px;
+    }
+}
+.navbar-toggler-icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHCAYAAAA8sqwkAAAAiklEQ…kJPOZV42SDE3ycxYsjY/In2DRsgb2dkp5rYqOU8qq1zsDuA06eMUefCnqYAAAAAElFTkSuQmCC);
+}
+.nav-link {
+    cursor: pointer;
+}
+nav.navbar-expand-md {
+    z-index: 9;
+    background-color: #fff;
+}
